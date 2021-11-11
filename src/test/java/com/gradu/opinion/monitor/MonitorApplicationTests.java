@@ -19,6 +19,7 @@ class MonitorApplicationTests {
     @Test
     void getName(){
         String name = testService.getName(1);
+        System.out.println("更新了");
         System.out.println(name);
     }
 
