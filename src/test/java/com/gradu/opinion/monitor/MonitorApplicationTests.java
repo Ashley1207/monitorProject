@@ -19,7 +19,7 @@ class MonitorApplicationTests {
     @Test
     void getName(){
         String name = testService.getName(1);
-        System.out.println("更");
+
         System.out.println(name);
     }
 
